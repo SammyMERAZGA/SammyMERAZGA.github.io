@@ -1,0 +1,346 @@
+/* Corps de la page */
+
+body {
+  font-family: 'Verdana';
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* Titres */
+
+header {
+  font-size: 54px;
+  font-family: Trebuchet MS;
+  padding: 30px;
+}
+
+h1 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 3em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: Tahoma;
+}
+
+h3 {
+  margin: 1em 0 0.5em 0;
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
+  font-size: 22px;
+  line-height: 40px;
+  color: #355681;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(53,86,129, 0.3);
+}
+
+h4 {
+  font-weight: 600;
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  font-size: 22px;
+  color: #abb525;
+  border-bottom: 1px solid rgb(235,234,198);
+}
+
+/* En-tête et pied de page */
+
+header {
+  height: 100px;
+}
+
+footer {
+  padding-top: 30px;
+  text-align: center;
+  background-color: #ACACAC;
+}
+
+/* Menu principal */
+
+nav,ul,li,.table a {
+  box-sizing: border-box;
+}
+
+nav li {
+  list-style-type: none; /* Enlever les points sur le menu */
+    border-top: 3px solid #424558;
+}
+
+nav .table ul {
+  margin:0;
+  padding:0;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  background-color: #424558; /* Couleur du fond du menu */
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #FEFEFE;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+/* Couleur lorsqu'on passe le curseur sur le menu */
+
+.menu:hover {
+  border-top: 3px solid #4c8;
+  background-color: RGBa(64, 200, 130, 0.15); /* Vert */
+}
+
+.centre:hover {
+  border-top: 3px solid #f1dc4f;
+  background-color: RGBa(241, 211, 79, 0.15); /* Jaune */
+}
+
+.telechargements:hover {
+  border-top: 3px solid #0070bb;
+  background-color: RGBa(000, 112, 192, 0.15); /* Bleu */
+}
+
+.formulaire:hover {
+  border-top: 3px solid #e44d26;
+  background-color: RGBa(228, 77, 38, 0.15); /* Rouge */
+}
+
+section {
+  width: 100%;
+  min-height: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#formulaire_contact {
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sec {
+  margin: 0px 10%; /* Modifie la taille de marges */
+}
+
+#presentation {
+  border-top: 5px solid #4c8; /* Bordure haute vert foncé */
+  background-color: RGBa(64, 200, 130, 0.15); /* Vert */
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#presentation img,#presentation figcaption {
+  width:100%;
+}
+
+#presentation figure {
+  max-width:350px;
+}
+
+/* Images */
+
+#l3m {
+  border: solid 2px #000000;
+}
+
+#photocontact {
+  width: 50px;
+  height: 50px;
+}
+
+#imgLinkedin {
+  width: 100px;
+  height: 100px;
+}
+
+#photodownload {
+  width: 200px;
+  height: 200px;
+}
+
+#usapicture {
+  width: 382px;
+  height: 258px; 
+}
+
+#fleche {
+  width: 100px;
+  height: 100px;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+#mainPic {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b9b6b4;
+  border: solid black;
+}
+
+#parcours {
+  border-top: 5px solid #f1dc4f; /* Bordure haute jaune foncé */
+  background-color: RGBa(241, 211, 79, 0.15); /* Jaune */
+}
+
+#competences {
+  border-top: 5px solid #0070bb; /* Bordure haute bleu foncé */
+  background-color: RGBa(000, 112, 192, 0.15); /* Bleu */
+}
+
+#contact {
+	border-top: 5px solid #e44d26; /* Bordure haute rouge foncé */
+	background-color: RGBa(228, 77, 38, 0.15); /* Rouge */
+}
+
+/* Couleurs des différents onglets */
+
+#section {
+  background-color: RGBa(250, 50, 5, 0.6); /* Rouge */
+}
+
+#download {
+  border-top: 5px solid #0070bb;
+  background-color: RGBa(000, 112, 192, 0.15); /* Bleu */
+}
+
+#centresinteret {
+  border-top: 5px solid #f1dc4f;
+  background-color: RGBa(241, 211, 79, 0.15); /* Jaune */
+}
+
+/* Compétences alignés */
+
+#logoComp {
+  width: 6%;
+  height: auto;
+  margin: 0 30px;
+}
+/* Taille logo */ 
+
+#php {
+  width: 10%;
+  height: 6%;
+  margin: 0 30px;
+}
+
+#java {
+  width: 4%;
+  height: 6%;
+  margin: 0 30px;
+}
+
+#mysql {
+  width: 9%;
+  height: 6%;
+  margin: 0 30px;
+}
+
+#oracle {
+  width: 5%;
+  height: 6%;
+  margin: 0 30px;
+}
+
+#sqlserver {
+  width: 8%;
+  height: 6%;
+  margin: 0 30px;
+}
+
+#phpmyadmin {
+  width: 10%;
+  height: 6%;
+  margin: 0 30px;
+}
+
+#html {
+  width: 7%;
+  height: 6%;
+  margin: 0 30px;
+}
+
+#css {
+  width: 5%;
+  height: 6%;
+  margin: 0 30px;
+}
+
+#xml {
+  width: 10%;
+  height: 6%;
+  margin: 0 30px;
+}
+
+#office {
+  width: 12%;
+  height: 6%;
+  margin: 0 30px;
+}
+
+#discord, #excel2, #firefox {
+  width: 5%;
+  margin: 0 30px;
+}
+
+#jira2, #selenium2, #eclipse, #github2 {
+  width: 15%;
+  margin: 0 30px;
+}
+
+#equipe {
+  width: 80%;
+  height: auto;
+  margin: 0 30px;
+  border: solid black;
+}
+
+#SmyTester {
+  width: 30%;
+  height: auto;
+  margin: 0 30px;
+  border: solid black;
+}
+
+/*Affichage smartphone */
+
+@media screen and (min-width: 560px) {
+  nav .table ul
+  {
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: center;
+  }
+} /* Fin de media querrie */
+
+@media screen and (min-width: 1000px) {
+  figure img {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  #merciavis, #formulaire_contact {
+    width: 100%;
+    height: auto;
+  }
+}
